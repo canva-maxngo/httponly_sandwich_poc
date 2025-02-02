@@ -35,5 +35,5 @@ async function sandwich(target, cookie) {
     };
 }
 
-setTimeout(sandwich, 100, 'https://max-red-herring-v2.instances.kodack.dev/attacker-page', 'hello');
+setTimeout(sandwich, 100, 'https://max-red-herring-v2.instances.kodack.dev/you-are-phished', 'hello');
 
