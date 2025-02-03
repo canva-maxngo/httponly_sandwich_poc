@@ -6,6 +6,9 @@ async function sandwich(target, cookie) {
     const domain = url.hostname;
     const path = url.pathname;
 
+    console.log("Domain: ", domain);
+    console.log("Path: ", path)
+
     iframe.src = target;
     // Hide the iframe
     iframe.style.display = 'none';
